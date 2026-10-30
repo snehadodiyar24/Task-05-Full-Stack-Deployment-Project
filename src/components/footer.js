@@ -1,0 +1,1 @@
+export function footer(){return `<footer><a class="logo" href="#/">forma<span>.</span></a><p>Thoughtful essentials for everyday living.</p><small>© ${new Date().getFullYear()} Forma · Student capstone project</small></footer>`}

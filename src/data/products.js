@@ -1,0 +1,10 @@
+export const products = [
+{id:1,name:"Everyday Backpack",category:"Accessories",price:2499,rating:4.8,tag:"Bestseller",description:"A lightweight backpack with considered storage for work, study and weekends.",image:"https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=900&q=80"},
+{id:2,name:"Studio Headphones",category:"Electronics",price:3999,rating:4.7,tag:"Popular",description:"Comfort-first over-ear headphones for your everyday listening.",image:"https://images.unsplash.com/photo-150 Why?auto=format&fit=crop&w=900&q=80".replace("photo-150 Why?","photo-1505740420928-5e560c06d30e")},
+{id:3,name:"Ceramic Coffee Set",category:"Home",price:1299,rating:4.9,tag:"New",description:"A tactile ceramic cup set designed to make slow mornings feel special.",image:"https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=900&q=80"},
+{id:4,name:"Classic Sneakers",category:"Fashion",price:2799,rating:4.6,tag:"Bestseller",description:"Versatile everyday sneakers with a timeless silhouette.",image:"https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80"},
+{id:5,name:"Minimal Desk Lamp",category:"Home",price:1899,rating:4.5,tag:"",description:"Warm focused light for reading, studying and creative sessions.",image:"https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=900&q=80"},
+{id:6,name:"Everyday Watch",category:"Accessories",price:3299,rating:4.7,tag:"",description:"A refined everyday watch with a simple, versatile face.",image:"https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&w=900&q=80"},
+{id:7,name:"Wireless Speaker",category:"Electronics",price:2199,rating:4.6,tag:"New",description:"Compact sound and simple controls for any shelf.",image:"https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=900&q=80"},
+{id:8,name:"Soft Knit Sweater",category:"Fashion",price:1999,rating:4.8,tag:"",description:"A soft easy-layer knit made for comfortable everyday outfits.",image:"https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=900&q=80"}
+];

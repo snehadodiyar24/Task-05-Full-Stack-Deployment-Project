@@ -1,0 +1,2 @@
+import {render} from "./router.js";import {cartStore} from "./utils/cartStore.js";import {updateCount} from "./components/header.js";import "./style.css";
+window.addEventListener("hashchange",render);document.addEventListener("click",e=>{const b=e.target.closest("[data-add]");if(b){cartStore.add(Number(b.dataset.add));b.textContent="Added ✓";updateCount();setTimeout(()=>{if(b.isConnected)b.innerHTML='Add to bag <span>＋</span>'},900)}});cartStore.subscribe(updateCount);if(!location.hash)location.hash="#/";render();
